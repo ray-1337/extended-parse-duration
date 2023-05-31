@@ -1,0 +1,7 @@
+{
+  "name": "extended-parse-duration",
+  "description": "Convert a string of duration (colon notation, ms format, etc) to milliseconds.",
+  "keywords": ["time", "parse", "duration", "ms"],
+  "author": "ray",
+  "license": "MIT"
+}
