@@ -1,7 +1,20 @@
 {
   "name": "extended-parse-duration",
   "description": "Convert a string of duration (colon notation, ms format, etc) to milliseconds.",
-  "keywords": ["time", "parse", "duration", "ms"],
+  "keywords": [
+    "time",
+    "parse",
+    "duration",
+    "ms"
+  ],
   "author": "ray",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/ms": "^0.7.31",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "ms": "^2.1.3",
+    "parse-duration": "^1.0.3"
+  }
 }
