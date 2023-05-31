@@ -1,5 +1,6 @@
 {
   "name": "extended-parse-duration",
+  "version": "0.1.0",
   "description": "Convert a string of duration (colon notation, ms format, etc) to milliseconds.",
   "scripts": {
     "test": "ava test.ts"
