@@ -1,0 +1,1 @@
+export default function parser(val: string | number): number;

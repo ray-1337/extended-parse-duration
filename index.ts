@@ -4,9 +4,9 @@ import parseStringDuration from "parse-duration";
 const colonRegex = new RegExp(/(0?\d|1[0-9]|2[0-3]):([0-5]?\d)(:([0-5]?\d)(:([0-5]?\d))?)?/);
 const digitsOnly = new RegExp(/^\d{1,}$/);
 
-export default function(val: string | number) {
+export default function parser(val: string | number) {
   if (!val || (typeof val !== "string" && typeof val !== "number")) return NaN;
-  
+
   val = String(val);
 
   if (val.match(colonRegex)) {

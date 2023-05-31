@@ -4,6 +4,10 @@
   "scripts": {
     "test": "ava test.ts"
   },
+  "files": [
+		"index.ts",
+		"index.d.ts"
+	],
   "ava": {
     "extensions": [ "ts" ],
     "environmentVariables": { "TS_NODE_LOG_ERROR": "true" },
