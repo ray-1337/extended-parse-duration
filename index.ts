@@ -31,11 +31,11 @@ export default function(val: string) {
   let time = ms(digitsOnly.test(val) ? val + "s" : val);
 
   if (!isNaN(time)) {
-    return time;
+    return time || NaN;
   } else {
     time = parseStringDuration(val);
     if (!isNaN(time)) {
-      return time;
+      return time || NaN;
     } else {
       return NaN;
     };
