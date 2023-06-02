@@ -2,8 +2,8 @@
   "name": "extended-parse-duration",
   "version": "0.2.0",
   "description": "Convert a string of duration (colon notation, ms format, etc) to milliseconds.",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
