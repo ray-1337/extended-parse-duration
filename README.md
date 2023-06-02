@@ -1,5 +1,5 @@
 # EPD
-Convert extended time formats to milliseconds.
+Convert time formats to milliseconds (Extended version)
 
 # Examples
 ```js
@@ -11,9 +11,10 @@ parser("00:25"); // 25000
 parser(55); // 55000
 ```
 
-# Features
-- Works on [human readable duration](https://npmjs.com/parse-duration).
-- Works on raw format of [ms](https://npmjs.com/ms).
+# Supports
+- Time with colon notation (dd:hh:mm:ss, hh:mm:ss, mm:ss, m:ss)
+- [ms](https://npmjs.com/ms) format.
+- [Human readable](https://npmjs.com/parse-duration) format.
 
 # License
 [MIT](LICENSE)
