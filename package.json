@@ -2,13 +2,14 @@
   "name": "extended-parse-duration",
   "version": "0.1.1",
   "description": "Convert a string of duration (colon notation, ms format, etc) to milliseconds.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
   "scripts": {
-    "test": "ava test.ts"
+    "test": "ava test.ts",
+    "build": "rm -rf dist && tsc -p tsconfig.json",
+    "pubdry": "pnpm publish --dry-run --no-git-checks"
   },
-  "files": [
-    "index.ts",
-    "index.d.ts"
-  ],
   "ava": {
     "extensions": [
       "ts"
