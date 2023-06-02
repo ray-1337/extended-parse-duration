@@ -21,6 +21,9 @@
       "ts-node/register"
     ]
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "keywords": [
     "time",
     "parse",
@@ -43,7 +46,7 @@
     "email": "personal@13373333.one",
     "url": "https://13373333.one"
   },
-  "repository": "ray-1337/extended-parse-duration",
+  "repository": "https://github.com/ray-1337/extended-parse-duration.git",
   "homepage": "https://github.com/ray-1337/extended-parse-duration#readme",
   "engines": {
     "node": ">=16"
