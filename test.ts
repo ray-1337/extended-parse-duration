@@ -1,5 +1,5 @@
 import test from "ava";
-import parser from "./index";
+import parser from "./lib/index";
 import ms from "ms";
 
 test("parse dd:hh:mm:ss", (t) => {
